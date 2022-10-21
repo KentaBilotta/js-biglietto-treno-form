@@ -8,7 +8,7 @@
     <!-- style -->
     <link rel="stylesheet" href="css/style.css">
     <!-- script -->
-    <script src="java-script/script.js"></script>
+    <script src="java-script/script.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -17,26 +17,26 @@
         <div class="price-cont">
             
             <div class="info-cont">
-                <div class="card name">
+                <div class="card">
                     <p class="sec-title">Nome e Cognome</p>
-                    <input type="text" placeholder="">
+                    <input type="text" placeholder="" id="name-surname">
                 </div>
-                <div class="card distance">
+                <div class="card">
                     <p class="sec-title">Km da percorrere</p>
-                    <input type="text" placeholder="">
+                    <input type="text" placeholder="" id="distance">
                 </div>
-                <div class="card age">
+                <div class="card">
                     <p class="sec-title">Fascia d'età</p>
-                    <select name="options">
-                        <option value="maggiorenne">Maggiorenne</option>
-                        <option value="minorenne">Minorenne</option>
-                        <option value="over-65">Over 65</option>
+                    <select name="options" id="age">
+                        <option class="maggiorenne">Maggiorenne</option>
+                        <option class="minorenne">Minorenne</option>
+                        <option class="over-65">Over 65</option>
                     </select>
                 </div>
             </div>
             <div class="buttons">
-                <button>Genera</button>
-                <button>Annulla</button>
+                <button class="generate">Genera</button>
+                <button class="cancel">Annulla</button>
             </div>
         </div>
 
@@ -46,7 +46,7 @@
             <div class="ticket-info">
                 <div class="card2 passenger">
                     <h3>NOME PASSEGGERO</h3>
-                    <div class="name">John Show</div>
+                    <div class="pass-name">John Show</div>
                 </div>
                 <div class="card2 offer">
                     <h5>Offerta</h5>
