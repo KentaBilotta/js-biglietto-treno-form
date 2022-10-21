@@ -21,7 +21,7 @@ h1{
     margin: auto;
 }
 
-.price-cont{
+.price-cont, .your-ticket{
     background-color: white;
     border-radius: 10px;
 }
@@ -57,4 +57,29 @@ button{
     width: 100px;
     height: 30px;
     margin: 10px;
+}
+
+.ticket-info{
+    height: 150px;
+    margin: 10px;
+    display: flex;
+}
+
+h3, h5{
+    margin: 10px;
+}
+
+.caratteristica{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.card2{
+    height: 120px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.passenger{
+    background-color: grey;
 }
